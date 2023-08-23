@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create Form</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<form action="" method="post">
+			<h2>Registration Form</h2>
+			<div class="content">
+				<div class="input-box">
+					<label for="name">Full Name</label>
+					<input type="text" placeholder="Enter full name" name="name" required>
+				</div>
+
+				<div class="input-box">
+					<label for="username">Username</label>
+					<input type="text" placeholder="Enter username" name="uname" required>
+				</div>
+
+				<div class="input-box">
+					<label for="email">Email</label>
+					<input type="email" placeholder="Enter your valid email address" name="email" required>
+				</div>
+
+				<div class="input-box">
+					<label for="mobile">Mobile Number</label>
+					<input type="tel" placeholder="Enter mobile number" name="mobile" required>
+				</div>
+
+				<div class="input-box">
+					<label for="address">Address</label>
+					<input type="address" placeholder="Enter your address" name="address" required>
+				</div>
+
+				<div class="input-box">
+					<label for="dob">Date Of Birth</label>
+					<input type="date" placeholder="Enter DOB" name="dob" required>
+				</div>
+
+				<div class="input-box">
+					<label for="password">Password</label>
+					<input type="password" placeholder="Enter password" name="password" required>
+				</div>
+
+				<div class="input-box">
+					<label for="cpassword">Confirm Password</label>
+					<input type="password" placeholder="Confirm password" name="confirmpassword" required>
+				</div>
+				<spam class="gender-title">Gender</spam>
+				<div class="gender-category">
+					<input type="radio" name="gender" id="female">
+					<label for="gender">Female</label>
+					<input type="radio" name="gender" id="male">
+					<label for="gender">Male</label>
+					<input type="radio" name="gender" id="other">
+					<label for="gender">Other</label>
+				</div>
+			</div>
+			<div class="alert">
+				<p>By clicking Register, you agree to all <a href="#">Terms,</a><a href="#">Privacy Policy,</a> and <a href="#">Cookies Policy.</a></p>
+			</div>
+			<div class="button-container">
+				<button type="submit">Register</button>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
